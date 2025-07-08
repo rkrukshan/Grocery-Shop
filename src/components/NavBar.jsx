@@ -12,6 +12,8 @@ export default function NavBar() {
 
     const onClose = () => setIsOpen(false);
 
+    isOpen ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";
+
     return (
         <div className='container bg-slate-100 px-15 py-9 mx-auto flex justify-between items-center'>
             <div className="rounded-full text-white p-2 bg-slate-500">
@@ -45,7 +47,11 @@ export default function NavBar() {
                     </span>
                 </button>
             </nav>
-
+            {
+                isOpen && (
+                    <div className="fixed inset-0 w-full h-full bg-black/15" onClick={() => setIsOpen(false)}></div>
+                )
+            }
             <CartComp isOpen={isOpen} onClose={onClose} />
         </div>
     );
