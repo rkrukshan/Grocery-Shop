@@ -31,7 +31,7 @@ export default function ProductCard({ product }) {
             <div>
                 <button
                     onClick={() => addToCart(product)}
-                    className="text-white font-bold p-2 bg-green-500 rounded flex mx-auto my-5"
+                    className="text-white font-bold p-2 bg-green-500 rounded flex mx-auto my-5 hover:cursor:pointer"
                 >
                     <ShoppingCart className="mr-2" />
                     Add to Cart
