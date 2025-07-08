@@ -6,7 +6,7 @@ const products = [
     price: 55.0,
     image:
       "https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "bunch",
   },
   {
@@ -16,7 +16,7 @@ const products = [
     price: 220.0,
     image:
       "https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "kg",
   },
   {
@@ -26,7 +26,7 @@ const products = [
     price: 120.0,
     image:
       "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "dozen",
   },
   {
@@ -36,17 +36,17 @@ const products = [
     price: 850.0,
     image:
       "https://images.unsplash.com/photo-1672787380741-6fe6c7450668?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    quantity: 5,
+    // quantity: 5,
     unit: "kg",
   },
   {
     id: 5,
-    name: "Fresh Milk (Highland)",
+    name: "Fresh Milk",
     category: "dairy",
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "1L",
   },
   {
@@ -56,7 +56,7 @@ const products = [
     price: 130.0,
     image:
       "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 20,
+    // quantity: 20,
     unit: "loaf",
   },
   {
@@ -66,7 +66,7 @@ const products = [
     price: 240.0,
     image:
       "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "kg",
   },
   {
@@ -76,7 +76,7 @@ const products = [
     price: 320.0,
     image:
       "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "100g",
   },
   {
@@ -86,7 +86,7 @@ const products = [
     price: 580.0,
     image:
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 6,
+    // quantity: 6,
     unit: "500ml",
   },
   {
@@ -96,7 +96,7 @@ const products = [
     price: 50.0,
     image:
       "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "each",
   },
   {
@@ -106,7 +106,7 @@ const products = [
     price: 150.0,
     image:
       "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "kg",
   },
   {
@@ -116,7 +116,7 @@ const products = [
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "kg",
   },
   {
@@ -126,7 +126,7 @@ const products = [
     price: 250.0,
     image:
       "https://images.unsplash.com/photo-1592841200221-a6895fdfa1e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "kg",
   },
   {
@@ -136,7 +136,7 @@ const products = [
     price: 70.0,
     image:
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 20,
+    // quantity: 20,
     unit: "each",
   },
   {
@@ -146,7 +146,7 @@ const products = [
     price: 300.0,
     image:
       "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "100g",
   },
   {
@@ -156,7 +156,7 @@ const products = [
     price: 200.0,
     image:
       "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "kg",
   },
   {
@@ -166,7 +166,7 @@ const products = [
     price: 150.0,
     image:
       "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "each",
   },
   {
@@ -176,7 +176,7 @@ const products = [
     price: 120.0,
     image:
       "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 6,
+    // quantity: 6,
     unit: "each",
   },
   {
@@ -186,7 +186,7 @@ const products = [
     price: 1200.0,
     image:
       "https://images.unsplash.com/photo-1618841507238-4f5c6b2b5c5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 5,
+    // quantity: 5,
     unit: "kg",
   },
   {
@@ -196,7 +196,7 @@ const products = [
     price: 950.0,
     image:
       "https://images.unsplash.com/photo-1618841507238-4f5c6b2b5c5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 4,
+    // quantity: 4,
     unit: "kg",
   },
   {
@@ -206,7 +206,7 @@ const products = [
     price: 1800.0,
     image:
       "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 3,
+    // quantity: 3,
     unit: "kg",
   },
   {
@@ -216,7 +216,7 @@ const products = [
     price: 1200.0,
     image:
       "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 4,
+    // quantity: 4,
     unit: "kg",
   },
   {
@@ -226,7 +226,7 @@ const products = [
     price: 450.0,
     image:
       "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "200g",
   },
   {
@@ -236,7 +236,7 @@ const products = [
     price: 120.0,
     image:
       "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "500g",
   },
   {
@@ -246,7 +246,7 @@ const products = [
     price: 350.0,
     image:
       "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 6,
+    // quantity: 6,
     unit: "250g",
   },
   {
@@ -256,7 +256,7 @@ const products = [
     price: 80.0,
     image:
       "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "pack of 4",
   },
   {
@@ -266,7 +266,7 @@ const products = [
     price: 650.0,
     image:
       "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 5,
+    // quantity: 5,
     unit: "500g",
   },
   {
@@ -276,7 +276,7 @@ const products = [
     price: 120.0,
     image:
       "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "pack of 10",
   },
   {
@@ -286,7 +286,7 @@ const products = [
     price: 350.0,
     image:
       "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "1L",
   },
   {
@@ -296,7 +296,7 @@ const products = [
     price: 280.0,
     image:
       "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "500g",
   },
   {
@@ -306,7 +306,7 @@ const products = [
     price: 150.0,
     image:
       "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "1.5L",
   },
   {
@@ -316,7 +316,7 @@ const products = [
     price: 220.0,
     image:
       "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "1L",
   },
   {
@@ -326,7 +326,7 @@ const products = [
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "pack of 25",
   },
   {
@@ -336,7 +336,7 @@ const products = [
     price: 450.0,
     image:
       "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "200g",
   },
   {
@@ -346,7 +346,7 @@ const products = [
     price: 120.0,
     image:
       "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "pack of 1",
   },
   {
@@ -356,7 +356,7 @@ const products = [
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "100g",
   },
   {
@@ -366,7 +366,7 @@ const products = [
     price: 90.0,
     image:
       "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 15,
+    // quantity: 15,
     unit: "pack of 10",
   },
   {
@@ -376,7 +376,7 @@ const products = [
     price: 220.0,
     image:
       "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "can",
   },
   {
@@ -386,7 +386,7 @@ const products = [
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "can",
   },
   {
@@ -396,7 +396,7 @@ const products = [
     price: 250.0,
     image:
       "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "can",
   },
   {
@@ -406,7 +406,7 @@ const products = [
     price: 120.0,
     image:
       "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "kg",
   },
   {
@@ -416,7 +416,7 @@ const products = [
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "500g",
   },
   {
@@ -426,7 +426,7 @@ const products = [
     price: 280.0,
     image:
       "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "100g",
   },
   {
@@ -436,7 +436,7 @@ const products = [
     price: 320.0,
     image:
       "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 6,
+    // quantity: 6,
     unit: "100g",
   },
   {
@@ -446,7 +446,7 @@ const products = [
     price: 150.0,
     image:
       "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "100g",
   },
   {
@@ -456,7 +456,7 @@ const products = [
     price: 350.0,
     image:
       "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 8,
+    // quantity: 8,
     unit: "500g",
   },
   {
@@ -466,7 +466,7 @@ const products = [
     price: 280.0,
     image:
       "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "500g",
   },
   {
@@ -476,7 +476,7 @@ const products = [
     price: 450.0,
     image:
       "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 6,
+    // quantity: 6,
     unit: "500g",
   },
   {
@@ -486,7 +486,7 @@ const products = [
     price: 180.0,
     image:
       "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 12,
+    // quantity: 12,
     unit: "500g",
   },
   {
@@ -496,7 +496,7 @@ const products = [
     price: 220.0,
     image:
       "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    quantity: 10,
+    // quantity: 10,
     unit: "500g",
   },
 ];
