@@ -20,9 +20,9 @@ export default function Shop() {
   }
 
   return (
-    <div className="flex justify-between container mx-auto mb-9">
-      <div className='max-w-6xl mr-5 flex flex-col lg:gap-6 my-7 lg:mt-15 mt-24 h-max'>
-        <div className="col-span p-4 bg-gray-100 h-max rounded-xl w-[280px] mb-10 hidden md:block">
+    <div className="flex flex-col lg:flex-row justify-between container mx-auto mb-9 px-4">
+      <div className='w-full lg:max-w-6xl lg:mr-5 flex flex-col gap-6 my-7 lg:mt-15 mt-24 h-max'>
+        <div className="col-span p-4 bg-gray-100 h-max rounded-xl w-full lg:w-[280px] mb-6">
           <h2 className="text-lg font-semibold mb-4">Filter</h2>
           <input
             type="text"
@@ -34,9 +34,9 @@ export default function Shop() {
           <select
             className='w-full p-2 border rounded mb-4'
             onChange={(event) => setCategory(event.target.value)}
-            value={category}  // Added value prop to control the select
+            value={category}
           >
-            <option value="">All Categories</option>  {/* Changed from disabled empty string */}
+            <option value="">All Categories</option>
             {categories.map((category) => (
               <option key={category.name} value={category.name}>{category.name}</option>
             ))}
@@ -49,11 +49,12 @@ export default function Shop() {
               max="500"
               value={priceRange[1]}
               onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])}
+              className="w-full"
             />
           </div>
-          <div className="w-1/2 mx-auto">
+          <div className="w-full lg:w-1/2 mx-auto">
             <button
-              className="bg-red-500 p-3 text-center font-bold text-white rounded-xl hover:cursor-pointer"
+              className="bg-red-500 p-3 text-center font-bold text-white rounded-xl hover:cursor-pointer w-full"
               onClick={resetFilter}
             >
               Reset Filter
@@ -61,7 +62,7 @@ export default function Shop() {
           </div>
         </div>
       </div>
-      <div className="span-3 grid grid-cols-5 gap-3 mt-15">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-6 lg:mt-15">
         {filteredProducts.map((product) => {
           return <ProductCard key={product.id} product={product} />
         })}

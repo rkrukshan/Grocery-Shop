@@ -21,19 +21,19 @@ export default function ProductCard({ product }) {
     };
 
     return (
-        <div className='border-b-2 rounded-2xl'>
+        <div className='border-b-2 rounded-2xl w-full'>
             <div>
-                <img src={product.image} alt={product.name} className='w-65 h-65 rounded-t-2xl' />
+                <img src={product.image} alt={product.name} className='w-full h-auto aspect-square object-cover rounded-t-2xl' />
             </div>
-            <div className='font-bold text-center text-md'>
+            <div className='font-bold text-center text-sm sm:text-md p-2'>
                 {product.name} - ${product.price}
             </div>
             <div>
                 <button
                     onClick={() => addToCart(product)}
-                    className="text-white font-bold p-2 bg-green-500 rounded flex mx-auto my-5 hover:cursor:pointer"
+                    className="text-white font-bold p-2 bg-green-500 rounded flex mx-auto my-3 sm:my-5 hover:cursor-pointer text-sm sm:text-base"
                 >
-                    <ShoppingCart className="mr-2" />
+                    <ShoppingCart className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                     Add to Cart
                 </button>
             </div>
