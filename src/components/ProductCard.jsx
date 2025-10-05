@@ -33,7 +33,7 @@ export default function ProductCard({ product }) {
                     onClick={() => addToCart(product)}
                     className="text-white font-bold p-2 bg-green-500 rounded flex mx-auto my-3 sm:my-5 hover:cursor-pointer text-sm sm:text-base"
                 >
-                    <ShoppingCart className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
+                    <ShoppingCart className="mr-2 w-4 h-4 sm:w-5 sm:h-5" /> 
                     Add to Cart
                 </button>
             </div>
